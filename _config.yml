@@ -1,0 +1,35 @@
+title: 我的四主題 Blog
+url: https://samyu183201-arch.github.io
+baseurl: "/koala" # 若為 project page 設 "/repo-name"
+
+theme: minima # 先用官方主題，之後可換
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/page:num"
+
+# 導覽列
+nav:
+  - name: 首頁
+    url: /
+  - name: 資訊
+    url: /categories/資訊/
+  - name: 音樂
+    url: /categories/音樂/
+  - name: 醫學
+    url: /categories/醫學/
+  - name: 思考
+    url: /categories/思考/
+  - name: 標籤
+    url: /tags/
+
+# 語系
+lang: zh-TW
+timezone: Asia/Taipei
+
+# Feed 設定（全站）
+feed:
+  path: feed/index.xml
