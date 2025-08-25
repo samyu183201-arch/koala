@@ -1,8 +1,8 @@
-title: 我的四主題 Blog
+title:Sam.Blog
 url: https://samyu183201-arch.github.io
 baseurl: "/koala" # 若為 project page 設 "/repo-name"
 
-theme: minima # 先用官方主題，之後可換
+theme: dark # 先用官方主題，之後可換
 plugins:
   - jekyll-feed
   - jekyll-sitemap
